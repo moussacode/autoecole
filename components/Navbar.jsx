@@ -8,6 +8,8 @@ import ResponsiveMenu from "./ResponsiveMenu.jsx";
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from '@/lib/utils'
 import { UserOpen } from './UserOpen.jsx';
+import Image from 'next/image'
+import LogoImg from "../app/assets/image.png";
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +42,13 @@ export const Navbar = () => {
                 <div className="flex justify-between items-center p-5 bg-white">
                     {/* Logo section */}
                     <div className="text-2xl flex items-center gap-2 font-bold">
-                        <p>Route Safe</p>
+                    <Image
+              className='flex-1 '
+            src={LogoImg}
+            alt='Moussa Code'
+            width={100}
+              
+            />
                     </div>
 
                     {/* Menu Section */}

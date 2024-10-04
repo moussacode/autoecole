@@ -24,7 +24,7 @@ const ResponsiveMenu = ({ isOpen })=> {
               <ul className="flex flex-col justify-center items-center gap-10">
                 <li ><Link href='/' className="border-b-2 border-black">Home</Link></li>
                 <li ><Link href='/cours'>Cours</Link></li>
-                <li ><Link href='/'>Quizz</Link></li>
+                <li ><Link href='/quizz'>Quizz</Link></li>
                 <li  className="w-full justify-center flex items-center">
 
           <Link  href="/sign" className={cn(buttonVariants({ variant: "outline" }), "w-full h-11 border-black")}>Connection</Link>

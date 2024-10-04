@@ -37,7 +37,7 @@ const Page = ({ params }) => {
                 <section className=''>
                     <div className="text-start mb-8 py-6 bg-secondary">
                         <div className='px-6'>
-                            <Breadcrumb currentPage={data.title} currentPath="/cours" />
+                            <Breadcrumb currentPage={data.title} currentPath="/cours" currentPathView="Cours"/>
                             <div className='text-xl font-semibold'>
                                 {data.title}
                             </div>

@@ -4,8 +4,8 @@ import CountUp from "react-countup";
 
 export const NumberCounter = () => {
   return (
-    <div className="w-full flex justify-center items-center bg-primary">
-    <div className=" text-white py-12 ">
+    <div className="w-full h-50  bg-primary flex justify-center items-center ">
+    <div className=" text-white py-24 ">
       <div className="container grid grid-cols-2 md:grid-cols-4 gap-8">
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-semibold">
@@ -17,7 +17,7 @@ export const NumberCounter = () => {
               scrollSpyOnce={true}
             />
           </p>
-          <p>Accident de route</p>
+          <p className="text-sm font-light">Accident de route</p>
         </div>
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-semibold">
@@ -30,7 +30,7 @@ export const NumberCounter = () => {
               scrollSpyOnce={true}
             />
           </p>
-          <p>Accident Moto</p>
+          <p className="text-sm font-light">Accident Moto</p>
         </div>
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-semibold">
@@ -41,7 +41,7 @@ export const NumberCounter = () => {
               scrollSpyOnce={true}
             />
           </p>
-          <p>Nombre de décés</p>
+          <p className="text-sm font-light">Nombre de décés</p>
         </div>
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-semibold">
@@ -54,7 +54,7 @@ export const NumberCounter = () => {
               scrollSpyOnce={true}
             />
           </p>
-          <p>Nombre de bléssés</p>
+          <p className="text-sm font-light">Nombre de bléssés</p>
         </div>
       </div>
     </div>

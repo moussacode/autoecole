@@ -16,17 +16,12 @@ import blog_pic_15 from './blog_pic_15.png';
 import blog_pic_16 from './blog_pic_16.png';
 import profile_icon from './profile_icon.png';
 
-export const blog_data = [
+export const quiz_data = [
     {
         id: 1,
-        title: "A detailed step by step guide to manage your lifestyle",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
-        image: blog_pic_1,
-        date: Date.now(),
+        title: "Lifestyle Management Quiz",
         category: "Lifestyle",
-        author: "Alex Bennett",
-        author_img: profile_icon,
-        quiz: [
+        questions: [
             {
                 question: "What is the first step to managing your lifestyle effectively?",
                 options: ["Planning", "Eating healthy", "Exercising"],
@@ -43,14 +38,9 @@ export const blog_data = [
     },
     {
         id: 2,
-        title: "How to create an effective startup roadmap or ideas",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
-        image: blog_pic_2,
-        date: Date.now(),
+        title: "Startup Success Quiz",
         category: "Startup",
-        author: "Alex Bennett",
-        author_img: profile_icon,
-        quiz: [
+        questions: [
             {
                 question: "What is a startup roadmap?",
                 options: ["A plan for a journey", "A guideline for startup growth", "A physical map"],
@@ -67,14 +57,9 @@ export const blog_data = [
     },
     {
         id: 3,
-        title: "Learning new technology to boost your career in software",
-        description: "Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
-        image: blog_pic_3,
-        date: Date.now(),
+        title: "Technology & Development Quiz",
         category: "Technology",
-        author: "Alex Bennett",
-        author_img: profile_icon,
-        quiz: [
+        questions: [
             {
                 question: "Which programming language is known for web development?",
                 options: ["Python", "JavaScript", "C++"],
@@ -91,14 +76,9 @@ export const blog_data = [
     },
     {
         id: 4,
-        title: "Tips for getting the most out of apps and software",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
-        image: blog_pic_4,
-        date: Date.now(),
+        title: "Software Efficiency Quiz",
         category: "Technology",
-        author: "Alex Bennett",
-        author_img: profile_icon,
-        quiz: [
+        questions: [
             {
                 question: "What is a key tip for using software effectively?",
                 options: ["Ignoring updates", "Regular practice", "Using complex features"],
@@ -115,14 +95,9 @@ export const blog_data = [
     },
     {
         id: 5,
-        title: "Enhancing your skills and capturing memorable moments",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
-        image: blog_pic_5,
-        date: Date.now(),
+        title: "Photography Essentials Quiz",
         category: "Lifestyle",
-        author: "Alex Bennett",
-        author_img: profile_icon,
-        quiz: [
+        questions: [
             {
                 question: "What is essential for capturing memorable moments?",
                 options: ["A good camera", "Expensive gear", "Lighting"],
@@ -139,14 +114,9 @@ export const blog_data = [
     },
     {
         id: 6,
-        title: "Maximizing returns by minimizing resources in your startup",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
-        image: blog_pic_6,
-        date: Date.now(),
+        title: "Startup Optimization Quiz",
         category: "Startup",
-        author: "Alex Bennett",
-        author_img: profile_icon,
-        quiz: [
+        questions: [
             {
                 question: "What is a resource that startups often minimize?",
                 options: ["Money", "Time", "Ideas"],
@@ -163,14 +133,9 @@ export const blog_data = [
     },
     {
         id: 7,
-        title: "Technology for Career advancement in development",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
-        image: blog_pic_7,
-        date: Date.now(),
+        title: "Web Development Quiz",
         category: "Technology",
-        author: "Alex Bennett",
-        author_img: profile_icon,
-        quiz: [
+        questions: [
             {
                 question: "What technology is essential for web development?",
                 options: ["HTML", "Cooking", "Gardening"],
@@ -186,5 +151,3 @@ export const blog_data = [
         ]
     }
 ];
-
-

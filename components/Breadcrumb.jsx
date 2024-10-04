@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const Breadcrumb = ({ currentPage, currentPath }) => {
+export const Breadcrumb = ({ currentPage, currentPath,currentPathView }) => {
   return (
     <nav className="mb-8 text-xs sm:text-sm md:text-base">
       <ul className="flex flex-wrap items-center gap-1 sm:gap-2">
@@ -12,7 +12,7 @@ export const Breadcrumb = ({ currentPage, currentPath }) => {
         </li>
         <li>
           <Link href={currentPath} className="font-semibold hover:underline">
-            Cours
+            {currentPathView}
           </Link>
           <span className="mx-1 sm:mx-2"> &gt; </span>
         </li>
